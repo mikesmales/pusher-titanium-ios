@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* UkAplifiPusherIosModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* UkAplifiPusherIosModule.h */; };
+		24DD6CFA1134B3F500162E58 /* UkAplifiPusherIosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* UkAplifiPusherIosModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.m */; };
+		27D7C1B91AE00480002C16E1 /* libPusher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D7C1B21AE00422002C16E1 /* libPusher.a */; };
+		27D7C1E91AE005C9002C16E1 /* ChannelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D7C1E31AE005C9002C16E1 /* ChannelAdapter.h */; };
+		27D7C1EA1AE005C9002C16E1 /* ChannelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D7C1E41AE005C9002C16E1 /* ChannelAdapter.m */; };
+		27D7C1EB1AE005C9002C16E1 /* LoggingHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D7C1E51AE005C9002C16E1 /* LoggingHandler.h */; };
+		27D7C1EC1AE005C9002C16E1 /* LoggingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D7C1E61AE005C9002C16E1 /* LoggingHandler.m */; };
+		27D7C1ED1AE005C9002C16E1 /* PusherAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D7C1E71AE005C9002C16E1 /* PusherAdapter.h */; };
+		27D7C1EE1AE005C9002C16E1 /* PusherAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D7C1E81AE005C9002C16E1 /* PusherAdapter.m */; };
+		AA747D9F0F9514B9006C5449 /* UkAplifiPusherIos_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* UkAplifiPusherIos_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "pusher-titanium-ios";
+		};
+		27D7C1AF1AE00422002C16E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = SampleApp;
+		};
+		27D7C1B11AE00422002C16E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3D1D2B71158013F009A12AD;
+			remoteInfo = libPusher;
+		};
+		27D7C1B31AE00422002C16E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3E5CC3718466879006A54DD;
+			remoteInfo = libPusher_ReactiveExtensions.a;
+		};
+		27D7C1B51AE00422002C16E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3A1A0EB115813E2001EF877;
+			remoteInfo = UnitTests;
+		};
+		27D7C1B71AE00422002C16E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A3A9F9581496E96100F83617;
+			remoteInfo = "Functional Specs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* UkAplifiPusherIosModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UkAplifiPusherIosModule.h; path = Classes/UkAplifiPusherIosModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* UkAplifiPusherIosModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UkAplifiPusherIosModule.m; path = Classes/UkAplifiPusherIosModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UkAplifiPusherIosModuleAssets.h; path = Classes/UkAplifiPusherIosModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UkAplifiPusherIosModuleAssets.m; path = Classes/UkAplifiPusherIosModuleAssets.m; sourceTree = "<group>"; };
+		27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libPusher.xcodeproj; path = platform/libPusher/libPusher.xcodeproj; sourceTree = "<group>"; };
+		27D7C1BB1AE004B5002C16E1 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		27D7C1BC1AE004B5002C16E1 /* NSString+Hashing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		27D7C1BE1AE004B5002C16E1 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		27D7C1BF1AE004B5002C16E1 /* NSString+Hashing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		27D7C1C01AE004B5002C16E1 /* PTBlockEventListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTBlockEventListener.h; sourceTree = "<group>"; };
+		27D7C1C11AE004B5002C16E1 /* PTJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTJSON.h; sourceTree = "<group>"; };
+		27D7C1C21AE004B5002C16E1 /* PTPusherChannel_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherChannel_Private.h; sourceTree = "<group>"; };
+		27D7C1C31AE004B5002C16E1 /* PTPusherChannelAuthorizationOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherChannelAuthorizationOperation.h; sourceTree = "<group>"; };
+		27D7C1C41AE004B5002C16E1 /* PTTargetActionEventListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTTargetActionEventListener.h; sourceTree = "<group>"; };
+		27D7C1C51AE004B5002C16E1 /* PTURLRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTURLRequestOperation.h; sourceTree = "<group>"; };
+		27D7C1C61AE004B5002C16E1 /* PTBlockEventListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTBlockEventListener.m; sourceTree = "<group>"; };
+		27D7C1C71AE004B5002C16E1 /* PTEventListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTEventListener.h; sourceTree = "<group>"; };
+		27D7C1C81AE004B5002C16E1 /* PTJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTJSON.m; sourceTree = "<group>"; };
+		27D7C1C91AE004B5002C16E1 /* PTPusher+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTPusher+Testing.h"; sourceTree = "<group>"; };
+		27D7C1CA1AE004B5002C16E1 /* PTPusher+Testing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PTPusher+Testing.m"; sourceTree = "<group>"; };
+		27D7C1CB1AE004B5002C16E1 /* PTPusher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusher.h; sourceTree = "<group>"; };
+		27D7C1CC1AE004B5002C16E1 /* PTPusher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusher.m; sourceTree = "<group>"; };
+		27D7C1CD1AE004B5002C16E1 /* PTPusherAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherAPI.h; sourceTree = "<group>"; };
+		27D7C1CE1AE004B5002C16E1 /* PTPusherAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherAPI.m; sourceTree = "<group>"; };
+		27D7C1CF1AE004B5002C16E1 /* PTPusherChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherChannel.h; sourceTree = "<group>"; };
+		27D7C1D01AE004B5002C16E1 /* PTPusherChannel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherChannel.m; sourceTree = "<group>"; };
+		27D7C1D11AE004B5002C16E1 /* PTPusherChannelAuthorizationOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherChannelAuthorizationOperation.m; sourceTree = "<group>"; };
+		27D7C1D21AE004B5002C16E1 /* PTPusherConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherConnection.h; sourceTree = "<group>"; };
+		27D7C1D31AE004B5002C16E1 /* PTPusherConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherConnection.m; sourceTree = "<group>"; };
+		27D7C1D41AE004B5002C16E1 /* PTPusherDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherDelegate.h; sourceTree = "<group>"; };
+		27D7C1D51AE004B5002C16E1 /* PTPusherErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherErrors.h; sourceTree = "<group>"; };
+		27D7C1D61AE004B5002C16E1 /* PTPusherEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherEvent.h; sourceTree = "<group>"; };
+		27D7C1D71AE004B5002C16E1 /* PTPusherEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherEvent.m; sourceTree = "<group>"; };
+		27D7C1D81AE004B5002C16E1 /* PTPusherEventDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherEventDispatcher.h; sourceTree = "<group>"; };
+		27D7C1D91AE004B5002C16E1 /* PTPusherEventDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherEventDispatcher.m; sourceTree = "<group>"; };
+		27D7C1DA1AE004B5002C16E1 /* PTPusherEventPublisher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherEventPublisher.h; sourceTree = "<group>"; };
+		27D7C1DB1AE004B5002C16E1 /* PTPusherMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherMacros.h; sourceTree = "<group>"; };
+		27D7C1DC1AE004B5002C16E1 /* PTPusherMockConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherMockConnection.h; sourceTree = "<group>"; };
+		27D7C1DD1AE004B5002C16E1 /* PTPusherMockConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPusherMockConnection.m; sourceTree = "<group>"; };
+		27D7C1DE1AE004B5002C16E1 /* PTPusherPresenceChannelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPusherPresenceChannelDelegate.h; sourceTree = "<group>"; };
+		27D7C1DF1AE004B5002C16E1 /* PTTargetActionEventListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTTargetActionEventListener.m; sourceTree = "<group>"; };
+		27D7C1E01AE004B5002C16E1 /* PTURLRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTURLRequestOperation.m; sourceTree = "<group>"; };
+		27D7C1E11AE004B5002C16E1 /* Pusher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pusher.h; sourceTree = "<group>"; };
+		27D7C1E31AE005C9002C16E1 /* ChannelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelAdapter.h; path = Classes/ChannelAdapter.h; sourceTree = "<group>"; };
+		27D7C1E41AE005C9002C16E1 /* ChannelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChannelAdapter.m; path = Classes/ChannelAdapter.m; sourceTree = "<group>"; };
+		27D7C1E51AE005C9002C16E1 /* LoggingHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggingHandler.h; path = Classes/LoggingHandler.h; sourceTree = "<group>"; };
+		27D7C1E61AE005C9002C16E1 /* LoggingHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingHandler.m; path = Classes/LoggingHandler.m; sourceTree = "<group>"; };
+		27D7C1E71AE005C9002C16E1 /* PusherAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PusherAdapter.h; path = Classes/PusherAdapter.h; sourceTree = "<group>"; };
+		27D7C1E81AE005C9002C16E1 /* PusherAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PusherAdapter.m; path = Classes/PusherAdapter.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* UkAplifiPusherIos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UkAplifiPusherIos_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libUkAplifiPusherIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUkAplifiPusherIos.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D7C1B91AE00480002C16E1 /* libPusher.a in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libUkAplifiPusherIos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* pusher-titanium-ios */ = {
+			isa = PBXGroup;
+			children = (
+				27D7C1BA1AE004B5002C16E1 /* Library */,
+				27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "pusher-titanium-ios";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27D7C1E31AE005C9002C16E1 /* ChannelAdapter.h */,
+				27D7C1E41AE005C9002C16E1 /* ChannelAdapter.m */,
+				27D7C1E51AE005C9002C16E1 /* LoggingHandler.h */,
+				27D7C1E61AE005C9002C16E1 /* LoggingHandler.m */,
+				27D7C1E71AE005C9002C16E1 /* PusherAdapter.h */,
+				27D7C1E81AE005C9002C16E1 /* PusherAdapter.m */,
+				24DE9E0F11C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* UkAplifiPusherIosModule.h */,
+				24DD6CF81134B3F500162E58 /* UkAplifiPusherIosModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		27D7C1A71AE00421002C16E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D7C1B01AE00422002C16E1 /* SampleApp.app */,
+				27D7C1B21AE00422002C16E1 /* libPusher.a */,
+				27D7C1B41AE00422002C16E1 /* libPusher_ReactiveExtensions.a */,
+				27D7C1B61AE00422002C16E1 /* UnitTests.xctest */,
+				27D7C1B81AE00422002C16E1 /* Functional Specs.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D7C1BA1AE004B5002C16E1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				27D7C1BB1AE004B5002C16E1 /* NSDictionary+QueryString.m */,
+				27D7C1BC1AE004B5002C16E1 /* NSString+Hashing.m */,
+				27D7C1BD1AE004B5002C16E1 /* Private Headers */,
+				27D7C1C61AE004B5002C16E1 /* PTBlockEventListener.m */,
+				27D7C1C71AE004B5002C16E1 /* PTEventListener.h */,
+				27D7C1C81AE004B5002C16E1 /* PTJSON.m */,
+				27D7C1C91AE004B5002C16E1 /* PTPusher+Testing.h */,
+				27D7C1CA1AE004B5002C16E1 /* PTPusher+Testing.m */,
+				27D7C1CB1AE004B5002C16E1 /* PTPusher.h */,
+				27D7C1CC1AE004B5002C16E1 /* PTPusher.m */,
+				27D7C1CD1AE004B5002C16E1 /* PTPusherAPI.h */,
+				27D7C1CE1AE004B5002C16E1 /* PTPusherAPI.m */,
+				27D7C1CF1AE004B5002C16E1 /* PTPusherChannel.h */,
+				27D7C1D01AE004B5002C16E1 /* PTPusherChannel.m */,
+				27D7C1D11AE004B5002C16E1 /* PTPusherChannelAuthorizationOperation.m */,
+				27D7C1D21AE004B5002C16E1 /* PTPusherConnection.h */,
+				27D7C1D31AE004B5002C16E1 /* PTPusherConnection.m */,
+				27D7C1D41AE004B5002C16E1 /* PTPusherDelegate.h */,
+				27D7C1D51AE004B5002C16E1 /* PTPusherErrors.h */,
+				27D7C1D61AE004B5002C16E1 /* PTPusherEvent.h */,
+				27D7C1D71AE004B5002C16E1 /* PTPusherEvent.m */,
+				27D7C1D81AE004B5002C16E1 /* PTPusherEventDispatcher.h */,
+				27D7C1D91AE004B5002C16E1 /* PTPusherEventDispatcher.m */,
+				27D7C1DA1AE004B5002C16E1 /* PTPusherEventPublisher.h */,
+				27D7C1DB1AE004B5002C16E1 /* PTPusherMacros.h */,
+				27D7C1DC1AE004B5002C16E1 /* PTPusherMockConnection.h */,
+				27D7C1DD1AE004B5002C16E1 /* PTPusherMockConnection.m */,
+				27D7C1DE1AE004B5002C16E1 /* PTPusherPresenceChannelDelegate.h */,
+				27D7C1DF1AE004B5002C16E1 /* PTTargetActionEventListener.m */,
+				27D7C1E01AE004B5002C16E1 /* PTURLRequestOperation.m */,
+				27D7C1E11AE004B5002C16E1 /* Pusher.h */,
+			);
+			name = Library;
+			path = platform/libPusher/Library;
+			sourceTree = "<group>";
+		};
+		27D7C1BD1AE004B5002C16E1 /* Private Headers */ = {
+			isa = PBXGroup;
+			children = (
+				27D7C1BE1AE004B5002C16E1 /* NSDictionary+QueryString.h */,
+				27D7C1BF1AE004B5002C16E1 /* NSString+Hashing.h */,
+				27D7C1C01AE004B5002C16E1 /* PTBlockEventListener.h */,
+				27D7C1C11AE004B5002C16E1 /* PTJSON.h */,
+				27D7C1C21AE004B5002C16E1 /* PTPusherChannel_Private.h */,
+				27D7C1C31AE004B5002C16E1 /* PTPusherChannelAuthorizationOperation.h */,
+				27D7C1C41AE004B5002C16E1 /* PTTargetActionEventListener.h */,
+				27D7C1C51AE004B5002C16E1 /* PTURLRequestOperation.h */,
+			);
+			path = "Private Headers";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* UkAplifiPusherIos_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D7C1E91AE005C9002C16E1 /* ChannelAdapter.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* UkAplifiPusherIos_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* UkAplifiPusherIosModule.h in Headers */,
+				27D7C1ED1AE005C9002C16E1 /* PusherAdapter.h in Headers */,
+				27D7C1EB1AE005C9002C16E1 /* LoggingHandler.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* pusher-titanium-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "pusher-titanium-ios" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pusher-titanium-ios";
+			productName = "pusher-titanium-ios";
+			productReference = D2AAC07E0554694100DB518D /* libUkAplifiPusherIos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "pusher-titanium-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* pusher-titanium-ios */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 27D7C1A71AE00421002C16E1 /* Products */;
+					ProjectRef = 27D7C1A61AE00421002C16E1 /* libPusher.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* pusher-titanium-ios */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		27D7C1B01AE00422002C16E1 /* SampleApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SampleApp.app;
+			remoteRef = 27D7C1AF1AE00422002C16E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27D7C1B21AE00422002C16E1 /* libPusher.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPusher.a;
+			remoteRef = 27D7C1B11AE00422002C16E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27D7C1B41AE00422002C16E1 /* libPusher_ReactiveExtensions.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPusher_ReactiveExtensions.a;
+			remoteRef = 27D7C1B31AE00422002C16E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27D7C1B61AE00422002C16E1 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = 27D7C1B51AE00422002C16E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27D7C1B81AE00422002C16E1 /* Functional Specs.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Functional Specs.xctest";
+			remoteRef = 27D7C1B71AE00422002C16E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D7C1EC1AE005C9002C16E1 /* LoggingHandler.m in Sources */,
+				27D7C1EE1AE005C9002C16E1 /* PusherAdapter.m in Sources */,
+				27D7C1EA1AE005C9002C16E1 /* ChannelAdapter.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* UkAplifiPusherIosModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* UkAplifiPusherIosModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* pusher-titanium-ios */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/UkAplifiPusherIos.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UkAplifiPusherIos_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UkAplifiPusherIos;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/UkAplifiPusherIos.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UkAplifiPusherIos_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UkAplifiPusherIos;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/UkAplifiPusherIos.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UkAplifiPusherIos_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UkAplifiPusherIos;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/UkAplifiPusherIos.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UkAplifiPusherIos_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = UkAplifiPusherIos;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "pusher-titanium-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "pusher-titanium-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

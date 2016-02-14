@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: pusher-titanium-ios
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: pusher-titanium-ios
+moduleid: uk.aplifi.pusher.ios
+guid: 10927b92-80f8-44e8-86a4-396a2c396540
+platform: iphone
+minsdk: 3.5.0.GA

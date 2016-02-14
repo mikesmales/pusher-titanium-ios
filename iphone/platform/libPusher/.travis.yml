@@ -1,0 +1,11 @@
+language: objective-c
+before_install:
+  - brew update
+  - brew unlink xctool
+  - brew install xctool --HEAD
+install: true
+env:
+  matrix:
+    - XCODE_SCHEME=libPusher SDK=iphonesimulator
+    - XCODE_SCHEME=libPusher-OSX SDK=macosx10.9
+script: xctool -workspace libPusher.xcworkspace -scheme $XCODE_SCHEME -sdk $SDK test
