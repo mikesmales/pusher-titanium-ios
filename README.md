@@ -7,7 +7,7 @@ Pusher client library for Titanium **iOS**
 Here is the module in a nutshell.
 
 ``` javascript
-var pusher = require('uk.aplifi.pusher.ios’);
+var pusher = require('uk.aplifi.pusher.ios');
 pusher.setup(key, authUrl);
 pusher.connect();
 
